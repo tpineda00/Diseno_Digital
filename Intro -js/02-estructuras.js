@@ -38,3 +38,4 @@ const [primerValor,segundoValor,...restantes] = "superheroes";
 console.log(primerValor);
 console.log(segundoValor);
 console.log(restantes); 
+fnm --version
