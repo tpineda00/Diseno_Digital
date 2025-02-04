@@ -29,7 +29,11 @@ const nuevalista = lista.map((valor) =>{
         return valor
     }
 }   );
+const suma = lista.reduce((acumulador, valor) => {
+    return acumulador + valor;
+}, 0);
 
+console.log(suma);
 
 console.log(nuevalista);
 
@@ -37,8 +41,7 @@ const pares = lista.filter((valor) =>{
     return valor % 2 === 0;
 }   );  
 
-console.log(pares);
-
+console.log(pares); 
 
 const postres = [
     {nombre:'Tres leches',
